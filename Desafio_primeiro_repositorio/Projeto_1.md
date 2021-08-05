@@ -50,3 +50,27 @@ git add *
 Assim foi feito o commit, com o comando commit + -m "mensagem", -m serve para deixar uma mensagem que referencie o commit e sempre colocar a descrição entre aspas dupla " ".
 
 git commit -m "Inicio do repositório"
+
+A seguir foi feito o repositório do projeto "Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu Progresso". Usando o comando mkdir + o nome do repositorio.
+
+mkdir Desafio_primeiro_repositorio
+
+Foi usado o comando mv, para mover o arquivo Projeto_1.md para o repositório Desafio_primeiro_repositorio. mv + o arquivo + ./ para referencia o repositório que estamos + o repositório de destino.
+
+mv Projeto_1.md ./Desafio_primeiro_repositorio
+
+Agora precisamos fazer o add, nesse caso temos que indicar o arquivo que foi movido e o repositório de destino.
+
+git add Projeto_1.md Desafio_primeiro_repositorio/
+
+Vamos agora criar um Index, para apresentar o projeto.
+
+echo > README.md
+
+Agora vamos usar o comando add para adicionar as alterações.
+
+git add *
+
+E usar o comando commit, para completar a operação.
+
+git commit -m "Criado o Index, e adicionado conteúdo no arquivo Projeto_1.md"
