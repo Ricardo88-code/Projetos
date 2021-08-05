@@ -74,3 +74,30 @@ git add *
 E usar o comando commit, para completar a operação.
 
 git commit -m "Criado o Index, e adicionado conteúdo no arquivo Projeto_1.md"
+
+#### Colocar o código no GITHUB
+
+Para finalizar o projeto vamos adicionar tudo o que foi criado para o GITHUB onde outros desenvolvedores poderão contribuir.
+
+Devemos criar o repositório no GITHUB e copiar o link do repositório.
+
+Agora vamos empurrar os arquivos para o GITHUB, primeiro adiciona a origem para estamos enviando. Usaremos o comando git remote(area que se encontra  a pasta) add (para adicionar) origin (para registrar como um "apelido" onde não será preciso ficar digitando o link do repositório) e o link do repositório.
+
+git remote add origin (Link do repositório no GITHUB)
+
+Nesse momento empurraremos o conteúdo para o GITHUB, com o comando push.
+
+git push origin master
+
+Adicionei conteudo no arquivo Projeto_1.md é necessário usar o comando add.
+
+git add *
+
+E usar o comando commit.
+
+git commit -m "Foi adicionado no GITHUB, e alterado o conteúdo do arquivo Projeto_1.md"
+
+Para finalizar usamos o comando push assim o projeto esta finalizado e disponível no GITHUB.
+
+git push origin master 
+
